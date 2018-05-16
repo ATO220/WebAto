@@ -1,5 +1,6 @@
+@import url("pym.css");
 .container{
-	width: 80%!important;
+	width: 100%!important;
 }
 .carousel-item img{
 	height: 400px;
@@ -8,4 +9,5 @@
 	border-radius: 50%;
 	width: 12px;
 	height: 12px;
+	opacity: 0.6;
 }
