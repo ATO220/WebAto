@@ -1,4 +1,8 @@
 @import url("pym.css");
+@font-face {
+	font-family: Quicksand;
+	src: url(../fonts/Quicksand.ttf);
+}
 .container{
 	width: 100%!important;
 }
@@ -10,4 +14,33 @@
 	width: 12px;
 	height: 12px;
 	opacity: 0.6;
+}
+.carousel-caption h5{
+	font-weight: bolder;
+}
+.carousel-caption p{
+	text-shadow: -1px 1px 2px #000;
+}
+#texto-presentacion h5{
+	font-size: 30px;
+	border: 1px solid #18FF30;
+	margin: 40px auto 60px auto;
+	text-align: center;
+	padding: 15px 0 15px 0;
+	border-radius: 20px;
+	font-family: Quicksand;
+	font-weight: 600;
+}
+#texto-presentacion p{
+	font-family: Quicksand;
+	font-size: 25px;
+	color: #3B3839;
+	font-weight: 200;
+	line-height: 28px;
+}
+.presentacion img{
+	width: 100%;
+	height: 80%;
+	margin-top: 40px;
+
 }
