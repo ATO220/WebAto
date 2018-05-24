@@ -8,9 +8,9 @@
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-<header>
-	<div class="container">
-		<div class="slider">
+<div class="container">
+    <header>
+        <div class="slider">
 			<div class="row">
 				<div class="col-sm-12">
 					<div id="carrusel-img" class="carousel slide" data-ride="carousel">
@@ -39,7 +39,7 @@
 								<div class="carousel-caption">
 									<h5>Desarrollo Web</h5>
 									<p>Html, Css, Bootstrap, Javascript, Angular Js</p><br>
-								</div>							
+								</div>
 							</div>
 						</div>
 						<a href="#carrusel-img" role="button" data-slide="prev" class="carousel-control-prev">
@@ -54,22 +54,31 @@
 				</div>
 			</div>
 		</div>
+    </header>
+
 		<div class="presentacion mt-l">
 			<div class="row">
 				<div class="col-sm-6" id="texto-presentacion">
-					<h5>Perfil Profesional</h5>
-					<p>Soy Desarrollador Web, actualmente me encuentro trabajando para una compañía que brinda servicios de Marketing Digital, realizando actualizaciones, features y mantenimiento al codigo de la plataforma de la misma.
-					Realizo además trabajos particulares de maquetacion, front-end y back-end.</p>
+					<h5 class="bloque" data-move-y="30%">Perfil Profesional</h5>
+					<p class="bloque" data-move-y="40%">Soy Desarrollador Web, actualmente me encuentro trabajando para una compañía que brinda servicios de Marketing Digital, realizando actualizaciones, features y mantenimiento al codigo de la plataforma de la misma.
+						Realizo además trabajos particulares de maquetacion, front-end y back-end.</p>
 				</div>
 				<div class="col-md-6">
-					<img class="img-responsive rounded-circle pull-right" src="img/img-profile/yop.png" alt="" id="imagen-perfil">
+					<img class="img-responsive rounded-circle pull-right bloque" data-rotate3d="4,7,10,300deg" src="img/img-profile/yop.png" alt="" id="imagen-perfil">
 				</div>
 			</div>
 		</div>
-	</div>
-</header>
+</div>
+</body>
+
+
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.smoove.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script >
+$('.bloque').smoove({});
+
+
+</script>
 </body>
 </html>
