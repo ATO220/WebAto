@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f70e36b6-21c0-49df-9511-db7b120023aa" name="Default" comment="aaa">
+    <list default="true" id="f70e36b6-21c0-49df-9511-db7b120023aa" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/form-image.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/iconos/bootstrap.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/iconos/jquery.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/estilos.css" afterPath="$PROJECT_DIR$/css/estilos.css" />
-      <change beforePath="$PROJECT_DIR$/img/iconos/angular2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/img-slider/imagen1.jpg" afterPath="$PROJECT_DIR$/img/img-slider/imagen1.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/img-slider/imagen2.jpg" afterPath="$PROJECT_DIR$/img/img-slider/imagen2.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/img-slider/imagen3.jpeg" afterPath="$PROJECT_DIR$/img/img-slider/imagen3.jpeg" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -316,7 +313,7 @@
       <workItem from="1527859297771" duration="598000" />
       <workItem from="1527951164950" duration="4483000" />
       <workItem from="1528130812070" duration="4275000" />
-      <workItem from="1528203110489" duration="1606000" />
+      <workItem from="1528203110489" duration="1844000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1526828523172</created>
@@ -346,15 +343,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527167554472</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sadasd">
+      <created>1528230742508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528230742508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65040000" />
+    <option name="totallyTimeSpent" value="65278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="-4" width="1219" height="804" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -368,7 +371,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16879795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16879795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24978687" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -392,7 +395,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aaa" />
+    <MESSAGE value="sadasd" />
+    <option name="LAST_COMMIT_MESSAGE" value="sadasd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -584,18 +588,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/estilos.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
           <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/iconos/jquery.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/iconos/bootstrap.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding />
         </state>
       </provider>
