@@ -2,7 +2,7 @@
    //Reseteamos variables a 0.
    $nombre = $email = $subject = $telefono = $mensaje = $para = $headers = $msjCorreo = NULL;
   
-   echo "jidjididdk";   //Obtenemos valores input formulario
+  //Obtenemos valores input formulario
       $nombre = $_POST['nombre'];
       $email = $_POST['email'];
       $subject = "CONSULTA WEBATO";   
@@ -13,7 +13,7 @@
       //Creamos cabecera.
       $headers = 'From' . " " . "Consultas WebAto" . "\r\n";
       $headers .= "Content-type: text/html; charset=utf-8";
-var_dump($nombre);
+
       //Componemos cuerpo correo.
       $msjCorreo = "Nombre: " . $nombre;
       $msjCorreo .= "\r\n";
@@ -28,10 +28,12 @@ var_dump($nombre);
 
     if (mail($para, $subject, $msjCorreo, $headers)) {
          echo "<script language='javascript'>
+            window.location.replace('http://laureanoserrano.com/');
             alert('Mensaje enviado, muchas gracias.');
          </script>";
     } else {
          echo "<script language='javascript'>
+            window.location.replace('http://laureanoserrano.com/');
             alert('fallado');
          </script>";
     }
