@@ -75,32 +75,32 @@
             </div>
         </div>
     </div>
-	<div class="habilidades mb-xl-0 container align-center">
+	<div class="habilidades mb-xl-0 container align-center mt-xl-5">
 		<div class="row">
-			<div class="bloque habilidades-titulo col-sm-12 col-md-offset-4 col-md-4 p-3 mt h2 text-center" data-scale="2,2" id="habilidades">Habilidades</div>
+			<div class="bloque habilidades-titulo col-sm-12 col-md-offset-4 col-md-4 p-3 mt h2 text-center bg-white" data-scale="2,2" id="habilidades">Habilidades</div>
 		</div>
 		<div class="row mt-5 mb-5">
-			<div class="col-xs-6 col-lg-2 col-sm-6 col-md-4 mt-5">
+			<div class="col-6 col-lg-2 col-sm-6 col-md-4 mt-5">
 				<img class="bloque img-fluid mb-3" src="img/iconos/html.png" alt="" data-scale-y="2">
 				<div class="bloque texto-icono border border-warning text-center mt pb-s pt-s" data-move-y="40%">HTML</div>
 			</div>
-			<div class="col-xs-6 col-lg-2 col-sm-6 col-md-4 mt-5">
+			<div class="col-6 col-lg-2 col-sm-6 col-md-4 mt-5">
 				<img class="bloque img-fluid mb-3" src="img/iconos/css.png" alt="" data-scale-x="2">
 				<div class="bloque texto-icono border-celeste text-center mt pb-s pt-s" data-move-y="40%">CSS</div>
 			</div>
-			<div class="col-xs-6 col-lg-2 col-sm-6 col-md-4 mt-5">
+			<div class="col-6 col-lg-2 col-sm-6 col-md-4 mt-5">
 				<img class="bloque img-fluid mb-3" src="img/iconos/javascript.png" alt="" data-scale-y="2">
 				<div class="bloque texto-icono border-amarillo text-center mt pb-s pt-s" data-move-y="40%">JAVASCRIPT</div>
 			</div>
-			<div class="col-xs-6 col-lg-2 col-sm-6 col-md-4 mt-5">
+			<div class="col-6 col-lg-2 col-sm-6 col-md-4 mt-5">
 				<img class="bloque img-fluid mb-3" src="img/iconos/jquery.png" alt="" data-scale-x="2">
 				<div class="bloque texto-icono border border-primary text-center mt pb-s pt-s" data-move-y="40%">JQUERY</div>
 			</div>
-			<div class="col-xs-6 col-lg-2 col-sm-6 col-md-4 mt-5">
+			<div class="col-6 col-lg-2 col-sm-6 col-md-4 mt-5">
 				<img class="bloque img-fluid mb-3" src="img/iconos/bootstrap.png" alt="" data-scale-y="2">
 				<div class="bloque texto-icono bootstrap border-violeta text-center mt pb-s pt-s" data-move-y="40%">BOOTSTRAP</div>
 			</div>
-			<div class="col-xs-6 col-lg-2 col-sm-6 col-md-4 mt-5">
+			<div class="col-6 col-lg-2 col-sm-6 col-md-4 mt-5">
 				<img class="bloque img-fluid mb-3" src="img/iconos/angular.png" alt="" data-scale-x="2">
 				<div class="bloque texto-icono border border-danger text-center mt pb-s pt-s" data-move-y="40%">ANGULAR</div>
 			</div>

@@ -3,8 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
-
+body{
+	background-image: url("../img/backgrounds/round.png");
+}
 @import url("pym.css");
 @font-face {
 	font-family: Quicksand;
@@ -46,7 +47,7 @@
 	text-shadow: -1px 1px 2px #000;
 }
 .contacto{
-    background-image: url("../img/form-image.jpg");
+    background-image: url("../img/backgrounds/form-image.jpg");
     color: #fff;
     border-radius: 20px;
 }
@@ -72,11 +73,13 @@
 .text-mail{
     color: rgba(0,0,0, 0.7);
 }
+.presentacion{
+	background-color: #fff; 
+}
 .presentacion img{
 	width: 100%;
 	height: 80%;
 	margin-top: 40px;
-
 }
 .habilidades-titulo{
 	border-radius: 20px;
