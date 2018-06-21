@@ -1,9 +1,9 @@
 function ValidateEmail(mail)
 {
-    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail.value))
+    if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(mail.value))
     {
         console.log("asdasdas")
-        document.getElementById(contacto).submit();
+        document.getElementById("formContacto").submit();
         return true;
     }else{
         console.log("asdasdasd121212")

@@ -109,7 +109,7 @@
     <div class="contacto border-info pt-xl-4 mt-xl-5 mb-xl-5 pb-xl-3 pt-2">
         <h3 class="text-center titulo-form" id="contacto">Contacto</h3>
         <p class="text-center titulo-form">En que puedo ayudarte? Dejame tu mensaje y comunicaré contigo en la brevedad.</p>
-        <form action="enviar.php" class="pl-lg-4 pr-lg-4 m-5" method="post" name="myForm" id="contacto">
+        <form action="enviar.php" class="pl-lg-4 pr-lg-4 m-5" method="post" name="myForm" id="formContacto">
             <div class="form-row">
                 <div class="form-group col-sm-12 col-md-4">
                     <label for="nombre">Nombre</label>
@@ -132,9 +132,11 @@
                 <label for="mensaje">Mensaje</label>
                 <textarea class="form-control" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
             </div>
-            <button onclick="ValidateEmail(email)" class="btn btn-info mb-4">Enviar</button>
         </form>
-    </div>
+		<div class="comntainer ml-5">
+			<button onclick="ValidateEmail(email)" class="btn btn-info mb-4">Enviar</button>
+		</div>
+	</div>
 </div>
 <p class="text-center mt-xl text-muted">Laureano Serrano - Todos los derechos reservados.</p>
 </body>
