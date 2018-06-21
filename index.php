@@ -109,7 +109,7 @@
     <div class="contacto border-info pt-xl-4 mt-xl-5 mb-xl-5 pb-xl-3 pt-2">
         <h3 class="text-center titulo-form" id="contacto">Contacto</h3>
         <p class="text-center titulo-form">En que puedo ayudarte? Dejame tu mensaje y comunicaré contigo en la brevedad.</p>
-        <form action="enviar.php" class="pl-lg-4 pr-lg-4 m-5" method="post">
+        <form action="enviar.php" class="pl-lg-4 pr-lg-4 m-5" method="post" name="myForm" id="contacto">
             <div class="form-row">
                 <div class="form-group col-sm-12 col-md-4">
                     <label for="nombre">Nombre</label>
@@ -118,6 +118,7 @@
                 <div class="form-group col-sm-12 col-md-4">
                     <label for="email">Mail</label>
                     <input type="text" class="form-control" id="email" name="email">
+					<span class="text-danger d-none" id="mailInvalid">El email ingresado es inválido</span>
                     <small id="emailHelp" class="form-text text-mail">Ingrese un mail válido. Ejemplo: JuanPerez@gmail.com</small>
 
                 </div>
@@ -131,7 +132,7 @@
                 <label for="mensaje">Mensaje</label>
                 <textarea class="form-control" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
             </div>
-            <button type="submit" class="btn btn-info mb-4">Enviar</button>
+            <button onclick="ValidateEmail(email)" class="btn btn-info mb-4">Enviar</button>
         </form>
     </div>
 </div>
@@ -142,10 +143,9 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.smoove.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script >
+<script src="js/validate.js"></script>
+<script>
 $('.bloque').smoove({});
-
-
 </script>
 
 </body>

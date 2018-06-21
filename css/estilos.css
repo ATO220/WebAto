@@ -15,8 +15,7 @@ body{
 	width: 100%!important;
 }
 .menu{
-	background-color: #21285B;
-	border-bottom: 1px solid #A9F4FF;
+	border-bottom: 2px solid #A9F4FF;
 	text-orientation: sideways;
 }
 .menu ul{
@@ -29,7 +28,12 @@ body{
 }
 .menu ul li a{
 	text-decoration: none;
-	color: #fff;
+	color: #8C8C8C;
+    text-shadow: 1px 0 3px #48D6FF;
+}
+.menu ul li a:hover{
+    color: #00FFE4;
+    text-shadow: 1px 1px 2px #878787;
 }
 .carousel-item img{
 	height: 640px;
@@ -71,7 +75,7 @@ body{
 	line-height: 28px;
 }
 .text-mail{
-    color: rgba(0,0,0, 0.7);
+    color: rgba(255,255,255, 0.7);
 }
 .presentacion{
 	background-color: #fff; 
