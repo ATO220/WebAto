@@ -11,6 +11,13 @@ body{
 	font-family: Quicksand;
 	src: url(../fonts/Quicksand.ttf);
 }
+.text-responsive{
+    color: #289BFF;
+    text-shadow: 0 0 2px #FFFFFF;
+}
+.pb-image{
+    padding-bottom: 80px;
+}
 .container{
 	width: 100%!important;
 }
